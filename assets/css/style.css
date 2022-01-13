@@ -1,0 +1,27 @@
+ :root {
+     --dark-color :rgb(38, 38, 44);
+     --lightColor: #fff;
+
+ }
+
+ h1,.forcast, .searchBtn,.cityBtn { 
+     background-color: var(--dark-color);
+     color: var(--lightColor);
+     
+ }
+ .searchLabel {
+     font-size: 1.7rem;
+ }
+ 
+
+ .searchBtn {
+     border: 1px solid var(--dark-color); ;
+ }
+ .searchBtn:hover,.cityBtn:hover {
+    
+    text-decoration: none;
+    border: 1px solid var(--dark-color);
+    color: var(--lightColor);
+}
+
+ 
