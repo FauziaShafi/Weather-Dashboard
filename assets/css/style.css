@@ -13,7 +13,9 @@
      font-size: 1.7rem;
  }
  
-
+.searchInput {
+    padding: 20px;
+}
  .searchBtn {
      border: 1px solid var(--dark-color); ;
  }
